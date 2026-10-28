@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gtm-tool-finder"
+version = "1.0.0"
+description = "Search GTM tool API reviews, tool comparisons and GTM glossary terms from OneGTMLab, from your terminal or Python."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "OneGTMLab", email = "jay@onegtmlab.dev"}]
+keywords = ["gtm", "sales tools", "revops", "lead enrichment", "tool comparison", "gtm engineering"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Developers",
+  "Topic :: Office/Business",
+]
+
+[project.urls]
+Homepage = "https://www.onegtmlab.dev"
+Documentation = "https://www.onegtmlab.dev/tool-directory"
+Source = "https://github.com/jaizendra-netizen/gtm-tool-finder"
+
+[project.scripts]
+gtm-tool-finder = "gtm_tool_finder.cli:main"
+
+[tool.setuptools.package-data]
+gtm_tool_finder = ["data.json"]
