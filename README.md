@@ -1,5 +1,7 @@
 # gtm-tool-finder
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/jaizendra-netizen/gtm-tool-finder)
+
 Search the [OneGTMLab](https://www.onegtmlab.dev) GTM tool directory from your terminal or from Python:
 
 - API reviews for 66 sales and marketing tools: pricing, rate limits, keys and MCP support
